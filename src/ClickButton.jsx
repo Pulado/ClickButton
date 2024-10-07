@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import logo2 from "./img/logo2.png";
 
 function ClickButton() {
     const [isButtonVisible, setIsButtonVisible] = useState(false);
@@ -42,7 +42,7 @@ return (
             <div id='filho'>
             <button onClick={handleClick}>
                 
-            CLIQUE PARA GANHAR <img src="./src/logo.png" style={{ verticalAlign: 'middle', marginLeft: '5px', maxHeight: '9.5vh', padding: '1%', marginRight: '5%' }} />
+            CLIQUE PARA GANHAR <img src={logo2} alt="Logo do Click Button" title="Logo do Click Button" style={{ verticalAlign: 'middle', marginLeft: '5px', maxHeight: '9.5vh', padding: '1%', marginRight: '5%' }} />
         </button>
         
                 <p>FALTAM: {count}</p>
