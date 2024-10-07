@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function ClickButton() {
     const [isButtonVisible, setIsButtonVisible] = useState(false);
-    const [count, setCount] = useState(1);     
+    const [count, setCount] = useState(10);     
     const [message, setMessage] = useState('');
     const [visible, setVisible] = useState(true);
     const [reset, setReset] = useState(true); 
@@ -26,7 +26,7 @@ const handleClick = () => {
 const handleReset = () =>{
     setIsButtonVisible(false);
     setVisible(true);
-    setCount(count+1)
+    setCount(count+10)
     setMessage(false)
 }
 
