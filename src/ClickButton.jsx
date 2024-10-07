@@ -18,7 +18,7 @@ const handleClick = () => {
         setCount(count - 1);
     }
     if (count - 1 === 0){
-        const randomAmount = Math.floor(Math.random() * 20); 
+        const randomAmount = Math.floor(Math.random() * 15); 
         setMessage(`PPARABÉNS, VOCÊ GANHOU ${randomAmount} DÓLARES!!!`);
     }
 }
