@@ -35,7 +35,7 @@ return (
     <div id='pai'>
         {visible && <p>PARA INICIAR É NECESSÁRIO PAGAR 5 DÓLARES. NÃO SE PREOCUPE! AO CONCLUIR O DESAFIO, VOCÊ PODERÁ RECUPERAR O VALOR GASTO OU TALVEZ NÃO!!! <br></br><br></br> </p>}
         {!isButtonVisible && (
-            <button onClick={handleRelease}>PAGUE 5 DÓLARES</button>
+            <button onClick={handleRelease}>PAGUE 15 DÓLARES</button>
             
         )}
         {isButtonVisible && (
